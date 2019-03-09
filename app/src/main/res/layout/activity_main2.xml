@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="ShortesPath"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Ekrana yıkladığınızda ekranda bir tane node olulmaktadır istediğiniz kadar node oluşturabilirsiniz.Ardından nodeları birleştirmek için birleştirmek istediğiniz nodelara tıklayıp üst taraftaki birleştir butonuna tıkladığında arayı bir çizgi ile birleştirmektedir.Birleştirme işlemi de tamamlandıktan sonra hangi iki buton arasındali en kısa yolu ve maliyeti merak ediyorsak basılı tutuyoruz.Ardından hesapla butonuna basıyoruz.Ensonunda bir alert dialog yardımı ile maliyet uyazılıyor ve en kısa yolun çizgileri belirgin bir renge dönüşüyor."
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clicked"
+        android:text="Başla" />
+
+</LinearLayout>
